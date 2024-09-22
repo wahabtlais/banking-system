@@ -29,6 +29,7 @@ export const signIn = async ({ email, password }: signInProps) => {
 		return parseStringify(response);
 	} catch (error) {
 		console.log("Error", error);
+		test;
 	}
 };
 
